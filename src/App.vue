@@ -37,11 +37,17 @@
   </div>
 </template>
 
-<script setup>
-import { ref } from 'vue';
+<script lang="ts">
+/*import { ref } from 'vue';
 import { IonHeader, IonToolbar, IonButtons,  IonTitle, IonSegment, IonSegmentButton, IonButton, IonLabel } from '@ionic/vue';
 
-const selectedSegment = ref('documents');
+const selectedSegment = ref('documents');*/
+import { defineComponent } from 'vue';
+
+export default defineComponent({
+  name: 'App',
+  // Ваши компоненты, данные и методы
+});
 </script>
 
 <style>
