@@ -1,0 +1,7 @@
+{
+  "name": "Kaspi.kz",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue-vite"
+}
